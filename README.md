@@ -86,7 +86,7 @@ It will ask for your login credential. If you are successfull, it will tell you 
   web: gunicorn djorg.wsgi
   ```
 
-## 5 Deployment using [git](https://devcenter.heroku.com/articles/git#deploying-code)
+## 5. Deployment using [git](https://devcenter.heroku.com/articles/git#deploying-code)
 * [ ] Make sure you are login into heroku ```heroku auth:whoami ```. It should display your username
 
 * [ ] git add, commit and push all your changes to github
@@ -102,7 +102,7 @@ It will ask for your login credential. If you are successfull, it will tell you 
 Your can check that the configurations have been send out by typing ```heroku config```
 *You can also create the config variables in the dashboard itself*
 
-## 6 FINAL COMMITS, PUSH TO GITHUB and then type ```git push heoroku master```
+## 6. FINAL COMMITS, PUSH TO GITHUB and then type ```git push heroku master```
 *The magic begins. Your apply will be push to heroku. Your Procfile lets heroku know which language you are using node, python and will make necessary moves.*
 
 *to run commands on heroku, you will be typing ```heroku run python manage.py COMMAND_AFTERWARDS```*
@@ -114,5 +114,6 @@ and
 *other commands are `heroku run python manage.py shell` and `heroku run python manage.py dbshell`.*
 
 * [ ] debug your code by running ```heroku logs```
+[Link to the heroku error codes](https://devcenter.heroku.com/articles/error-codes)
 
 ***good luck with your deployment**
