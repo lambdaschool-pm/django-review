@@ -72,7 +72,7 @@ It will ask for your login credential. If you are successfull, it will tell you 
   ]
   ```
 
-  Near the static area put the following lines. And if you setup the STATIC_ROOT, you will have to setup a folder
+  Near the static area put the following lines. And if you setup the STATIC_ROOT, you will have to setup a folder, name ```staticfiles``` in the main folder
 
   ```python
   STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
